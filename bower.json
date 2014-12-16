@@ -19,6 +19,11 @@
     "type": "git",
     "url": "git://github.com/nickfargo/state.git"
   },
+  "ignore": [
+		".*",
+		"node_modules",
+		"bower_components"
+	],
   "licenses": [
     {
       "type": "MIT",
