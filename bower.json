@@ -1,0 +1,39 @@
+{
+  "name": "state",
+  "version": "0.2.0",
+  "description": "First-class states",
+  "homepage": "http://statejs.org/",
+  "keywords": [
+    "state",
+    "transition",
+    "behavior",
+    "behaviour",
+    "prototype",
+    "prototypal",
+    "hierarchical",
+    "fsm",
+    "state machine"
+  ],
+  "author": "Nick Fargo",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nickfargo/state.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/nickfargo/state/master/LICENSE"
+    }
+  ],
+  "main": "lib/index",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "prepublish": "bin/compile && bin/test -R progress",
+    "test": "bin/test -R spec"
+  },
+  "dependencies": {
+    "omicron": "~0.2.0"
+  }
+}
